@@ -1,338 +1,545 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"><!-- Basic -->
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Nuestra Boda ~ Vania & Emmanuel</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Nuestra Boda Vania & Emmanuel</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="icons/icofont/icofont.min.css">
 
-  <!-- Favicons -->
-  <link href="assets/img/5ac93f15ee0f1.jpeg" rel="icon">
-  <link href="assets/img/5ac93f15ee0f1.jpeg" rel="apple-touch-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
-<body>
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-    <h1>Vania & Emmanuel</h1>
-
-    <a href="#services" class="btn-get-started scrollto"><i class="icofont-simple-down"></i></a>
-  </section><!-- End Hero -->
-  
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container d-flex align-items-center">
-
-      <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>V&E Nuestra Boda</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Inicio</a></li>          
-          <li><a href="#resume">Nuestra Historia</a></li>
-          <li><a href="#portfolio">Galeria</a></li>   
-          <li><a href="#services">Boda</a></li>                 
-          <li><a href="#contact">Confirma Tu Asistencia</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    </div>
-  </header><!-- End Header -->
-  <br>
-  <main id="main">
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Nuestra Historia</h2>
-          <p>El amor es un sentimiento capaz de sacar lo mejor y lo peor de las personas. También de llevar a una pareja hacia su final feliz o hacia una tragedia muy dramática.</p>
+	<!-- LOADER -->
+    <div id="preloader">
+		<div class="preloader pulse">
+			<h3>Vania & Emmanuel</h3>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Inicio</a></li>
+                        <li><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+                        <li><a class="nav-link" href="#story">Nuestra Historia</a></li>
+                        <li><a class="nav-link" href="#family">Nuestra Familia</a></li>
+                        <li><a class="nav-link" href="#gallery">Galeria de Fotos</a></li>
+						<li><a class="nav-link" href="#wedding">Boda</a></li>
+                        <!-- <li><a class="nav-link" href="#events">Eventos</a></li> -->
+						<li><a class="nav-link" href="#contact">Confirma Tu Asistencia</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start Banner -->
+	<div class="home-slider">
+		<ul class="rslides">
+			<li><img src="images/slider-01.jpg" alt=""></li>
+			<li><img src="images/slider-02.jpg" alt=""></li>
+			<li><img src="images/slider-03.jpg" alt=""></li>
+		</ul>
+		<div class="lbox-details">
+			<h1>Vania  & Emmanuel</h1>
+			<h2>Nos Vamos a Casar</h3>
+			<div class="countdown main-time clearfix">
+				<div id="timer">
+					<h3> 5 July 2021</h3>
+					<div id="days"></div>
+					<div id="hours"></div>
+					<div id="minutes"></div>
+					<div id="seconds"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+	
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<!-- <div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="title-box">
+							<h2>Jonas Pare <span> & </span> Karlene Hoard </h2>
+						</div>
+					</div>
+				</div> -->
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="images/about-img-01.jpg" alt="" />
+									</div>									
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Vania</span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
+							</div>
+						</div>
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="images/about-img-02.jpg" alt="" />
+									</div>									
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Emmanuel </span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About us -->
+	
+	<!-- Start Story -->
+	<div id="story" class="story-box main-timeline-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Nuestra Historia</h2>
+						 <p>El amor es un sentimiento capaz de sacar lo mejor y lo peor de las personas. También de llevar a una pareja hacia su final feliz o hacia una tragedia muy dramática.</p>
           <p>~ Todas las historias de amor son distintas. Y hoy queremos compartir con ustedes la nuestra. ~</p>
-        </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="timeLine">
+				<div class="row">
+					<div class="lineHeader hidden-sm hidden-xs"></div>
+					<div class="lineFooter hidden-sm hidden-xs"></div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Donde Nos Conocimos</h3>
-            <div class="resume-item pb-0">
-              <h4>Iglesia Adventista Aquiles Serdan, Villaflores, Chiapas.</h4>
-              <h5>Febrero - 2019</h5>
-              <p><em>"Todo comenzó un sábado por la mañana en la iglesia Adventista Aquiles serdan, al término del programa fueron presentados por la madre de Emmanuel, ambos se mostraron de lo más indiferentes sin saber lo que sería de ellos."</em></p>
-              <p><em>"La madre de Emmanuel invito a vania a comer, y ese fue el día en el que escucho la peculiar risa de la mujer que le robaria el corazón."</em></p>             
-            </div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item" >
+							<div class="caption">
+								<div class="star center-block">
+									<!-- <span class="h3">01</span> -->
+									<span>Febrero </span>
+									<span>2019</span>
+								</div>
+								<div class="image">
+									<img src="images/time-01.jpg" alt="" />
+									<div class="title">
+										<h2>Donde Nos Conocimos <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">En la iglesia Adventista Aquiles serdan, un sabado por la mañana al términar el programa la mamá de Emmanuel nos presentó.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">									
+									<span>Mayo</span>
+									<span>2019</span>
+								</div>
+								<div class="image">
+									<img src="images/time-02.jpg" alt="" />
+									<div class="title">
+										<h2>Nuestra Primera Cita<i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Tuvimos nuestra primera cita en una de las glorietas del parque central de villaflores, despues de platicar un buen rato decidimos ir a tomar café en una de las cafeterias, y seguimos platicando de nuestros gustos por la medicina y de nuestras experiencias en el hospital.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">26</span>
+									<span>Junio</span>
+									<span>2019</span>
+								</div>
+								<div class="image">
+									<img src="images/time-03.jpg" alt="" />
+									<div class="title">
+										<h2>Cuando Nos Hicimos Novios <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Fuimos a la cafeteria de nuestra primera cita, y despues de un rato el se levantó por unos minutos, al regresar traia consigo un gran ramo de rosas, se acerco a mi y me dijó: "llegaste a mi vida, entraste en mi corazón y supe lo mucho que te quiero y adoro, sería un tonto si no intentara ser tu novio porque eres la mujer más hermosa y divertida del mundo y quiero que me des la oportunidad de ser tu novio"; y desde ese dia empezó nuestra historia de amor.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">04</span>
+									<span>June</span>
+									<span>2017</span>
+								</div>
+								<div class="image">
+									<img src="images/time-04.jpg" alt="" />
+									<div class="title">
+										<h2>Propuesta <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">como fue la pedida de mano</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">04</span>
+									<span>July</span>
+									<span>2017</span>
+								</div>
+								<div class="image">
+									<img src="images/time-05.jpg" alt="" />
+									<div class="title">
+										<h2>La boda <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Since then i came to Austria as refugee far from my lovers and friends far a way escaping from wars and threats searching a new life that i didn't find until yet.</p>
+								</div>
+							</div>
+						</div>
 
-            <h3 class="resume-title">Nuestra Primera Cita</h3>
-            <div class="resume-item">
-              <h4>Cafe Monet, villaflores, Chiapas.</h4>
-              <h5>Mayo - 2019</h5>
-              <p><em>"El 9 de mayo era el ultimo día de rotación por el área de hospitalización para vania, y las enfermeras programaron una cena para despedirlos, por lo que vania decidió invitar a Emmanuel, mas el estaba en semanas críticas de estudio ya que presentaría su examen de titulación para la carrera de medicina. Pero vania no se dio por vencida, y logró convencer a emmanuel de descansar de todos los libros que estudiaba a diario."</em></p>   
-              <p><em>"Esa tarde él paso por ella a las 6:30, ella vestía una blusa plateada, pantalon de mezclilla y tenis rojos. El vestía una playera salmón pantalon de mezclilla y zapatos café."</em></p>           
-              <p><em>"Sentados en una de las glorietas del parque central, las horas pasaron más no se dieron cuenta, decidieron tomar un café en Monet. Platicaron de sus gustos por la medicina, sus muchas experiencias en el hospital, su amor por ayudar a los demás..., entre risas y carcajadas la noche termino."</em></p>
-            </div>
-
-            <h3 class="resume-title">Cuando Nos Hicimos Novios</h3>
-            <div class="resume-item">
-              <h4>Cafe Monet, villaflores, Chiapas.</h4>
-              <h5>Junio - 2019</h5>
-              <p><em>"Con el tiempo que pasaba el se daba cada vez mas y mas cuenta de aquel sentimiento que crecía desproporcionadamente por ella. Los días pasaban y el no encontraba las palabras adecuadas para expresar todo lo que sentia, sin embargo dejo de lado los nervios y pensó en aquellas palabras con las que declararia su amor:
-                "llegaste a mi vida, entraste en mi corazón y supe lo mucho que te quiero y adoro, sería un tonto si no intentara ser tu novio porque eres la mujer más hermosa y divertida del mundo y quiero que me des la oportunidad de ser tu novio". </em></p>
-              <p><em>"El 26 de junio del 2019 era una tarde muy lluviosa, pero eso no detuvo la decisión que el habia tomado y entonces compró un ramo de rosas (el mas grande que encontró), lo puso en la parte de atrás del coche y fue por ella bajo la gran lluvia; la llevo al mismo café de su primera cita y dijo cada una de las palabras que llevaba en mente mientras su corazón se estremesia y esperaba aquella respuesta ..."</em></p>              
-            </div>           
-          </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Nuestro Primer Año juntos</h3>
-            <div class="resume-item">                         
-              <p><em>"Nuestro primer año juntos, lo pasamos en ---(lugar y que hicieron)-- "</em></p>              
-            </div>
-            
-            <h3 class="resume-title">La Decisión Más Importante De Nuestras Vidas</h3>
-            <div class="resume-item">
-              <h4>Lugar</h4>
-              <h5>fecha</h5>
-              <p><em>"--(historia de como te propuso matrimonio)--"</em></p>              
-            </div>
-
-          </div>
-          
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Galeria De Fotos</h2>
-          <p>Compartimos con ustedes algunos de nuestros momentos mas importantes.</p>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-              </div>            
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-              </div>            
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-              </div>              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-              </div>
-             
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-              </div>
-             
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-              </div>
-              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-              </div>
-              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-              </div>
-              
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Boda</h2>
-          <p>--(invitacion)--</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Ceremonia</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Salón De Fiestas</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Confirma Tu Asistencia</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-4">
-            <div class="contact-about">
-              <h3>V&E</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-              <div class="social-links">
-                <a href="#" class="whatsapp"><i class="icofont-whatsapp"></i></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- End Story -->
+	
+	<!-- Start Family -->
+	<div id="family" class="family-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Nuestra Familia</h2>						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-01.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Mr. Alonso Wiles </h4>
+							<p>{ Leida’s Father }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-02.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Mr. Evon Wiles </h4>
+							<p>{ Leida’s Mother }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-03.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Mr. Chris Wiles </h4>
+							<p>{ Leida’s Brother }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-04.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Mr. Adina Wiles </h4>
+							<p>{ Leida’s Sister }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-05.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Mr. Annetta Wiles </h4>
+							<p>{ Leida’s Sister }</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single-team-member">
+						<div class="family-img">
+							<img class="img-fluid" src="images/family-06.jpg" alt="" />
+						</div>
+						<div class="family-info">
+							<h4>Mr. Ladonna Wiles </h4>
+							<p>{ Leida’s Sister }</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Family -->
+	
+	<!-- Start Gallery -->
+	<div id="gallery" class="gallery-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Galeria De Fotos</h2>
+						<p>Compartimos con ustedes algunos de nuestros momentos mas importantes.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<ul class="popup-gallery clearfix">
+					<li>
+						<a href="images/gallery-01.jpg">
+							<img class="img-fluid" src="images/gallery-01.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-02.jpg">
+							<img class="img-fluid" src="images/gallery-02.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-03.jpg">
+							<img class="img-fluid" src="images/gallery-03.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery-04.jpg">
+							<img class="img-fluid" src="images/gallery-04.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+										
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+	
+	<!-- Start Wedding -->
+	
+	<div id="wedding" class="wedding-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Nuestra Boda</h2>
+						<p>Queremos invitarte a que formes parte de este gran momento muy importante para nosotros y para nuestras famalias, esperamos contar con tu asistencia para compartir contigo la alegria de esta fecha importante.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
                 
-              </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon"><i class="flaticon-wedding"></i></div>
+                        <h3 class="title">Ceremonia De Boda </h3>
+						<h4>05 July 2017 at 9:30 pm</h4>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon"><i class="flaticon-bachelorette-party"></i></div>
+                        <h3 class="title">Salón De Fiestas </h3>
+						<h4>06 July 2017 at 10:30 pm</h4>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
+			
+		</div>
+	</div>
+	
+	<!-- End Wedding -->
+	
+	<!-- Start Events -->
+	<!-- <div id="events" class="events-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Events</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="event-inner">
+						<div class="event-img">
+							<img class="img-fluid" src="images/event-img-01.jpg" alt="" />
+						</div>
+						<h2>2 June 2018 Engagement</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+						<a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="event-inner">
+						<div class="event-img">
+							<img class="img-fluid" src="images/event-img-02.jpg" alt="" />
+						</div>
+						<h2>3 June 2018 Main Ceremony </h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+						<a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="event-inner">
+						<div class="event-img">
+							<img class="img-fluid" src="images/event-img-03.jpg" alt="" />
+						</div>
+						<h2>4 June 2018 Wedding party </h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+						<a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- End Events -->
+	
+	<!-- Start Contact -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Confirma Tu Asistencia</h2>					
+					</div>
+				</div>
+			</div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="info">
-              <div>
-                <i class="icofont-google-map"></i>
-                <p>A108 Adams St, Brooklyn, NY 535022, Estados Unidos</p>
-              </div>
+	        <div class="row">
+	          <div class="col-lg-4 col-md-4">
+	            <div class="contact-about">
+	              <h3>V&E</h3>
+	              <p>Para nosotros es muy importante saber si asistiras, por eso esperamos que confirmes tu asistencia, y de la misma manera te brindamos la ubicacion del salón de fiestas.</p>
+	              <div class="social-links">	                
+	                 
+	                <div class="col-lg-4 col-md-6 col-sm-12">								
+						<li><a style="background: #528780;color: #ffffff;width: 38px;height: 38px;text-align: center;line-height: 38px;display: block;border-radius: 50px;margin: 0px 5px;" href="#"><i class="fa fa-whatsapp"></i></a></li>			
+					</div>             
+	              </div>
+	            </div>
+	          </div>
 
-              <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12099.579119738528!2d-73.98884230293592!3d40.69831493529962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a35d88147e3%3A0x2d8585855c209d8!2sRelation!5e0!3m2!1ses!2smx!4v1628607943937!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-              </div>
+	          <div class="col-lg-3 col-md-4">
+	            <div class="info">
+	              <div>
+	                <i class="icofont-google-map"></i>
+	                <p>A108 Adams St, Brooklyn, NY 535022, Estados Unidos</p>
+	              </div>
+	              <div>
+	                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12099.579119738528!2d-73.98884230293592!3d40.69831493529962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a35d88147e3%3A0x2d8585855c209d8!2sRelation!5e0!3m2!1ses!2smx!4v1628607943937!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	              </div>
+	            </div>
+	          </div>
 
+	        </div>
+			
+		</div>
+	</div>
+	<!-- End Contact -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Sweetwedding</a> Edit By : <a href="#">Darwin Pérez Albores</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
 
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Nuestra Boda V&E</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-lonely/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        <br>
-        Edit by <a href="https://dariwn.github.io/portafolio/">Darwin Pérez Albores</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script> 
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+    <script src="js/timeLine.min.js"></script>	
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
 </body>
-
 </html>
