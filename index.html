@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="icons/icofont/icofont.min.css">
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Pogo Slider CSS -->
@@ -483,11 +489,51 @@
 	              <div class="social-links">	                
 	                 
 	                <div class="col-lg-4 col-md-6 col-sm-12">								
-						<li><a style="background: #528780;color: #ffffff;width: 38px;height: 38px;text-align: center;line-height: 38px;display: block;border-radius: 50px;margin: 0px 5px;" href="#"><i class="fa fa-whatsapp"></i></a></li>			
-					</div>             
+						<!-- <li><a style="background: #528780;color: #ffffff;width: 38px;height: 38px;text-align: center;line-height: 38px;display: block;border-radius: 50px;margin: 0px 5px;" href="#"><i class="fa fa-whatsapp"></i></a></li>			 -->
+						<!-- <li><button type="button" style="background: #528780;color: #ffffff;display: block;border-radius: 50px;margin: 0px 5px;" class="btn btn-secondary"><i class="fa fa-whatsapp"></i>
+						</button></li> -->
+
+						<!-- Button trigger modal -->
+						<li>
+							<button type="button" class="btn btn-primary" style="background: #528780;color: #ffffff;display: block;border-radius: 50px;margin: 0px 5px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							<i class="fa fa-whatsapp"></i>
+							</button>
+						</li>
+						
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h2 class="modal-title" id="exampleModalLabel">Aviso</h2>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>Para confirmar tu asistencia, es necesario que nos envies un mensaje con la siguiente información:</p>
+									<br>
+									<p>1.- Apellidos de la familia.</p>
+									<p>2.- Cuantos pases de adulto y niños se les dio.</p>
+									<p>3.- Confirmar cuantos de los adultos y niños iran.</p>
+									<br>								
+									<p>Todo esto es para darles una atención personalizada y asi poder cerrar las mesas.</p>
+									<p>Los holsters los escoltaran hasta su mesa y serán ubicados por familias.</p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								<a class="btn btn-primary" style="color: white;" href="https://wa.me/529611841752?text=La Familia: %20Queremos%20confirmar%20que%20tenemos: %20pases%20de%20adulto%20y%20 %20pases%20de%20niños.%20%20Queremos%20confirmar%20que%20usaremos: %20pases%20de%20adulto%20y%20 %20pases%20de%20niños." target="blank">Confirmar</a>
+								</div>
+							</div>
+							</div>
+						</div>
+						<!-- fin modal-->
+						   
+					</div> 
+						
+
+
 	              </div>
 	            </div>
-	          </div>
+	          </div>			  
 
 	          <div class="col-lg-3 col-md-4">
 	            <div class="info">
@@ -522,6 +568,7 @@
 	</footer>
 	<!-- End Footer -->
 
+	
 	<!-- ALL JS FILES -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
