@@ -375,7 +375,8 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .home-slider{
-	position: relative;
+	position: relative;	
+	padding-top: 2%;
 	height: 100%;
 }
 
