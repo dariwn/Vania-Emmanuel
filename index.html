@@ -43,15 +43,6 @@
 	
 
 </head>
-<script type="text/javascript">
-	var mensaje = confirm("¿Quieres Reproducir El Sonido?");
-
-	if(mensaje){
-		const music = new Audio('music.mp3');
-		music.play();
-	}
-	
-</script>
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
 
@@ -85,11 +76,32 @@
 						<li><a class="nav-link" href="#contact">Confirma Tu Asistencia</a></li>
                     </ul>
                 </div>
-            </div>
+            </div>          	
         </nav>
+        <div class="col-md-12" style="text-align: center;">
+        	<button id="sound" style="background-color: Transparent;  border: none;" class="reproductor" data-bs-toggle="tooltip" data-bs-placement="right" title="Reproducir Sonido">
+        		<img src="images/sound.png" style="height: 35px; width: 35px;">
+        	</button>
+		<audio></audio>
+		<script>
+		    let boton = document.querySelector(".reproductor")
+		    let audioEtiqueta = document.querySelector("audio")
+
+		      boton.addEventListener("click", () => {
+		      audioEtiqueta.setAttribute("src", "music.mp3")
+		      audioEtiqueta.play()
+		      
+		      const $btn = document.querySelector(".reproductor");
+
+		      $btn.style.display = "none";
+
+		      console.log(`Reproduciendo: ${audioEtiqueta.src}`)
+		    })
+		</script>
+        </div>
 	</header>
 	<!-- End header -->
-
+	
 	<!-- Start Banner -->
 	<div class="home-slider">
 		<ul class="rslides">
