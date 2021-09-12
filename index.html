@@ -43,8 +43,17 @@
 	
 
 </head>
+<script type="text/javascript">
+	var mensaje = confirm("¿Quieres Reproducir El Sonido?");
 
+	if(mensaje){
+		const music = new Audio('music.mp3');
+		music.play();
+	}
+	
+</script>
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
 
 	<!-- LOADER -->
     <div id="preloader">
@@ -80,7 +89,7 @@
         </nav>
 	</header>
 	<!-- End header -->
-	
+
 	<!-- Start Banner -->
 	<div class="home-slider">
 		<ul class="rslides">
@@ -585,5 +594,7 @@
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
+
 </body>
+
 </html>
