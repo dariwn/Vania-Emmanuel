@@ -76,20 +76,33 @@
 						<li><a class="nav-link" href="#contact">Confirma Tu Asistencia</a></li>
                     </ul>
                 </div>
-            </div>          	
+            </div>			
         </nav>
-        <div class="col-md-12" style="text-align: center;">
-        	<button id="sound" style="background-color: Transparent;  border: none;" class="reproductor" data-bs-toggle="tooltip" data-bs-placement="right" title="Reproducir Sonido">
-        		<img src="images/sound.png" style="height: 35px; width: 35px;">
-        	</button>
+
+		
+
+        <div class="col-md-12" style="text-align: center;">			
+				
+				<button id="sound" style="background-color: Transparent;  border: none;" class="reproductor" data-bs-toggle="tooltip" data-bs-placement="right" title="Reproducir Sonido">
+					
+					<div id="alerta" class="alert alert-primary d-flex align-items-center" role="alert" >
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+						  <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+						</svg>
+						<div>
+						  Presiona aqui para poder escuchar la cancion de fondo.						  
+						</div>
+					</div>
+
+				</button>
 		<audio></audio>
 		<script>
-		    let boton = document.querySelector(".reproductor")
-		    let audioEtiqueta = document.querySelector("audio")
-
+		    let boton = document.querySelector(".reproductor");
+		    let audioEtiqueta = document.querySelector("audio");
+			
 		      boton.addEventListener("click", () => {
-		      audioEtiqueta.setAttribute("src", "music.mp3")
-		      audioEtiqueta.play()
+		      audioEtiqueta.setAttribute("src", "music.mp3");
+		      audioEtiqueta.play();
 		      
 		      const $btn = document.querySelector(".reproductor");
 
@@ -252,7 +265,7 @@
 									<span>2017</span>
 								</div>
 								<div class="image">
-									<img src="images/time-04.jpg" alt="" />
+									<img src="images/time-04.jpeg" alt="" />
 									<div class="title">
 										<h2>La Propuesta <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
 									</div>
@@ -562,13 +575,13 @@
 	            <div class="info">
 	              <div>
 	                <i class="icofont-google-map"></i>
-	                <p>Av Central Pte S/N, Centro, 29000 Tuxtla Gutiérrez, Chis.</p>
+	                <p>18 Sur Oriente 336, San Francisco, 29066 Tuxtla Gutiérrez, Chis.</p>
 	              </div>
 	              <div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.428263357008!2d-93.12555088582116!3d16.755355525136487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd8f1706e5609%3A0x434a02d637cd5e23!2sParque%20de%20la%20Marimba!5e0!3m2!1ses!2smx!4v1630800986918!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	                
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15283.033707923603!2d-93.11709!3d16.7389011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4b11d51d948316b7!2sKam-Fai%20Sal%C3%B3n%20%26%20Jardin!5e0!3m2!1ses!2smx!4v1643933085610!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	              </div>
 				  <div>
-					  <a class="btn btn-primary" href="https://www.google.com.mx/maps/dir//Parque+de+la+Marimba,+Av+Central+Pte+S%2FN,+Centro,+29000+Tuxtla+Guti%C3%A9rrez,+Chis./@16.7553555,-93.1255509,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x85ecd8f1706e5609:0x434a02d637cd5e23!2m2!1d-93.1233622!2d16.7553504" target="blank">Como llegar </a>
+					  <a class="btn btn-primary" href="https://www.google.com.mx/maps/dir//Kam-Fai+Sal%C3%B3n+%26+Jardin,+18+Sur+Oriente+336,+San+Francisco,+29066+Tuxtla+Guti%C3%A9rrez,+Chis./@16.7389803,-93.1521097,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x85ecd8677a77bd53:0x4b11d51d948316b7!2m2!1d-93.11709!2d16.7389011" target="blank">Como llegar </a>
 				  </div>
 	            </div>
 	          </div>
