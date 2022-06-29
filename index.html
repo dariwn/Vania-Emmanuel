@@ -39,6 +39,7 @@
       crossorigin="anonymous"
     />
     <!-- JavaScript Bundle with Popper -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
@@ -110,9 +111,10 @@
           </div>
         </div>
       </nav>
-
-      <div class="col-md-12" style="text-align: center">
-        <button
+     
+      
+      <!-- <div class="col-md-12" style="text-align: center">        
+         <button
           id="sound"
           style="background-color: Transparent; border: none"
           class="reproductor"
@@ -144,6 +146,14 @@
         </button>
         <audio></audio>
         <script>
+          var resultado = window.confirm('Estas seguro?');
+          if (resultado === true) {
+              var repro = document.getElementById("myAudio");
+              repro.play();  
+          } 
+
+
+
           let boton = document.querySelector(".reproductor");
           let audioEtiqueta = document.querySelector("audio");
 
@@ -158,10 +168,17 @@
             console.log(`Reproduciendo: ${audioEtiqueta.src}`);
           });
         </script>
-      </div>
+      </div> -->
     </header>
     <!-- End header -->
-
+    <!-- musica-->
+    <audio id="my_audio" controls autoplay>
+			<source src="music.mp3" type="audio/mp3">
+			<!--<source src="como-pagarte.mp3" type="audio/mpeg">-->
+			Your browser does not support the audio element.
+		</audio>
+    <!-- <audio id="myAudio" src="music.mp3" controls="controls" type="audio/mpeg" preload="preload"></audio> -->
+    <!-- fin de musica-->
     <!-- Start Banner -->
     <div class="home-slider">
       <ul class="rslides">
@@ -275,17 +292,18 @@
                   <img src="images/time-01.jpg" alt="" />
                   <div class="title">
                     <h2>
-                      Donde Nos Conocimos
+                      Nos Conocimos
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </h2>
                   </div>
                 </div>
                 <div class="textContent">
                   <p class="lead">
-                    Todo comenzó un sábado por la mañana en la iglesia
+                    En la iglesia Adventista Aquiles serdan, villaflores, Chis
+                    <!-- Todo comenzó un sábado por la mañana en la iglesia
                     Adventista Aquiles serdan, al término del programa fueron
                     presentados por la madre de Emmanuel, ambos se mostraron de
-                    lo más indiferentes sin saber lo que pasaria con el tiempo.
+                    lo más indiferentes sin saber lo que pasaria con el tiempo. -->
                   </p>
                 </div>
               </div>
@@ -307,12 +325,13 @@
                 </div>
                 <div class="textContent">
                   <p class="lead">
-                    Tuvieron su primera cita en una de las glorietas del parque
+                    En una de las glorietas del parque central de villaflores.
+                    <!-- Tuvieron su primera cita en una de las glorietas del parque
                     central de villaflores, y despues de platicar por un gran
                     rato decidieron ir a tomar café en una de las cafeterias que
                     se encunetra cerca, y siguieron platicando de los gustos que
                     tienen por la medicina y de sus experiencias que vivieron en
-                    el hospital.
+                    el hospital. -->
                   </p>
                 </div>
               </div>
@@ -328,14 +347,15 @@
                   <img src="images/time-03.jpg" alt="" />
                   <div class="title">
                     <h2>
-                      Cuando Nos Hicimos Novios
+                      Nos Hicimos Novios
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </h2>
                   </div>
                 </div>
                 <div class="textContent">
                   <p class="lead">
-                    El la llevo a la cafeteria en donde tuvieron su primera
+                    En una cafeteria en donde tuvimos nuestra primera cita.
+                    <!-- El la llevo a la cafeteria en donde tuvieron su primera
                     cita, y despues de un rato de estar platicando el se levantó
                     por unos minutos, se dirigió a su coche y regresó con ella,
                     en sus manos el traia consigo un gran ramo de rosas, se
@@ -347,7 +367,7 @@
                     por unos segundos, y entonces ella con todas las emociones
                     generadas en ese momento dijó la respuesta que él con tanto
                     nerviosismo esperaba, y desde ese día empezó una hermosa
-                    historia de amor.
+                    historia de amor. -->
                   </p>
                 </div>
               </div>
@@ -363,14 +383,23 @@
                   <img src="images/time-04.jpeg" alt="" />
                   <div class="title">
                     <h2>
-                      La Propuesta
+                      Propuesta de Matrimonio
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </h2>
                   </div>
                 </div>
                 <div class="textContent">
                   <p class="lead">
-                    El paso mucho tiempo pensando en cómo y dónde podría ser el
+                    Durante un show de payasos muy conocidos en el parque de la marimba
+                    en tuxtla gutierrez, al finalizar el show,
+                    el payaso lleva a ella al quiosco del parque, él toma el micrófono
+                    diciendo lo siguiente: “mi amor te amo, eres mi vida y 
+                    a pesar de todas las dificultades y problemas nuestra amor crece mas y mas,
+                    soy el hombre mas afortunado del mundo por ser tu novio y por eso mi amor te
+                    digo: quieres compartir todos tus días a mi lado? quieres
+                    ser mi esposa? “, ella le da el tan esperado si , y despues de ese momento
+                    se logra ver las lágrimas en ambos, pues la felicidad ah llegado a sus corazónes.
+                    <!-- El paso mucho tiempo pensando en cómo y dónde podría ser el
                     lugar perfecto para ese momento inolvidable, y un día llego
                     a su pensamiento el lugar preferido de su novia así como el
                     payaso favorito de ella, por lo que estos dos pequeños
@@ -393,7 +422,7 @@
                     sonrisa, ella le responde a tan valiosas preguntas y justo
                     cuando el escucha su respuesta, a ambos se les logra ver las
                     lágrimas en sus ojos por la enorme felicidad que ambos ah
-                    llegado a su corazón.
+                    llegado a su corazón. -->
                   </p>
                 </div>
               </div>
@@ -409,7 +438,7 @@
                   <img src="images/time-05.jpg" alt="" />
                   <div class="title">
                     <h2>
-                      La boda
+                      Nuestra Boda
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </h2>
                   </div>
@@ -514,7 +543,7 @@
             <div class="title-box">
               <h2>Galeria De Fotos</h2>
               <p>
-                Compartimos con ustedes algunos de nuestros momentos mas
+                Compartimos con ustedes algunos de nuestros momentos que para nosotros son los mas
                 importantes.
               </p>
             </div>
