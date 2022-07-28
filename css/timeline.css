@@ -2267,7 +2267,7 @@
 	content: '';
 	width: 15px;
 	height: 15px;
-	border: 3px solid goldenrod;
+	border: 3px solid #026842;
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
@@ -2279,7 +2279,7 @@
 	height: 1px;
 	width: 5%;
 	position: absolute;
-	background-color: goldenrod;
+	background-color: #026842;
 	top: 16px;
 	right: 8px; 
 }
@@ -2302,7 +2302,7 @@
 	z-index: 999;
 	top: -10px;
 	left: 20px;
-	background-color: goldenrod;
+	background-color: #026842;
 	color: white;
 	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5); 
 }
@@ -2356,7 +2356,7 @@
 	justify-content: center; 
 }
 .timeLine .row .item .caption .image .title {
-	background-color: darkgoldenrod;
+	background-color: #003817;
 	padding: 0px 20px;
 	position: absolute;
 	z-index: 9;
@@ -2375,7 +2375,7 @@
 	z-index: 2;
 	border-left: 10px solid transparent;
 	border-bottom: 0px solid transparent;
-	border-top: 10px solid goldenrod; 
+	border-top: 10px solid #026842; 
 }
 .timeLine .row .item .textContent {
 	padding: 15px 10px; 
@@ -2384,7 +2384,7 @@
 	text-justify: justify;
 	text-align: left;
 	padding: 0px 10px;
-	border-left: 5px solid goldenrod;
+	border-left: 5px solid #026842;
 }
 .timeLine .row .pull-right {
 	float: right;
@@ -2396,7 +2396,7 @@
 	content: '';
 	width: 15px;
 	height: 15px;
-	border: 3px solid darkgoldenrod;
+	border: 3px solid #003817;
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
@@ -2408,7 +2408,7 @@
 	height: 1px;
 	width: 5%;
 	position: absolute;
-	background-color: goldenrod;
+	background-color: #026842;
 	top: 21px;
 	left: 12px; 
 }
